@@ -1,0 +1,26 @@
+.container {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    min-width: 70px; /* Increased to fit "Bhautik" */
+    height: 30px; /* Slightly increased height for better spacing */
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-size: 2.1rem;
+    opacity: 1;
+    transition: 1s;
+    z-index: 4;
+    border-radius: 10%;
+    padding: 5px; /* Added padding for better spacing */
+}
+
+.content {
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    opacity: 0.7;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+}
